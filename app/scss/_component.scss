@@ -1,0 +1,416 @@
+.btn {
+  &:link,
+  &:visited,
+  &:active {
+    text-decoration: none;
+    font-size: 20px;
+    color: $text-color3;
+    text-transform: uppercase;
+
+    border-radius: 200px;
+    @media only screen and (max-width: 1400px) {
+      & {
+        font-size: 17px;
+      }
+    }
+    @media only screen and (max-width: 992px) {
+      & {
+        font-size: 13px;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      & {
+        font-size: 11px;
+      }
+    }
+    @media only screen and (max-width: 576px) {
+      & {
+        font-size: 8px;
+      }
+    }
+    @media only screen and (max-width: 425px) {
+      & {
+        font-size: 7px;
+      }
+    }
+  }
+  &-1 {
+    padding: 10px 40px;
+    background-color: $bg-color;
+    @media only screen and (max-width: 992px) {
+      & {
+        padding: 10px 30px !important;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      & {
+        padding: 8px 15px !important;
+      }
+    }
+    @media only screen and (max-width: 576px) {
+      & {
+        padding: 6px 14px !important;
+      }
+    }
+    @media only screen and (max-width: 576px) {
+      & {
+        padding: 5px 10px !important;
+      }
+    }
+  }
+  &-2 {
+    padding: 10px 30px;
+    width: 220px;
+    background-color: $bg-color2;
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 1200px) {
+      & {
+        padding: 10px 29px !important;
+        width: 180px;
+      }
+    }
+    @media only screen and (max-width: 992px) {
+      & {
+        padding: 10px 20px !important;
+        width: 145px;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      & {
+        font-size: 10px;
+        padding: 6px 14px !important;
+        width: 111px;
+      }
+    }
+    @media only screen and (max-width: 576px) {
+      & {
+        font-size: 10px;
+        padding: 5px 10px !important;
+        width: 83px;
+      }
+    }
+    @media only screen and (max-width: 425px) {
+      & {
+        padding: 5px 7px !important;
+        width: 68px;
+      }
+    }
+    &--1 {
+      box-shadow: 0px 30px 30px $btn-shadow;
+    }
+  }
+
+  &-3 {
+    border: 3px solid $boder-color;
+    text-transform: capitalize !important;
+    @media only screen and (min-width: 992px), (max-width: 992px) {
+      & {
+        font-size: 17px !important;
+        padding: 10px 40px;
+      }
+    }
+    &:hover {
+      background-color: $bg-color17;
+      color: $text-color2;
+    }
+    @media only screen and (max-width: 576px) {
+      & {
+        font-size: 12px !important;
+        padding: 8px 20px;
+        border: 2px solid $boder-color;
+      }
+    }
+  }
+}
+
+.pan {
+  margin-right: 10px;
+  @media only screen and (max-width: 992px) {
+    & {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    & {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    & {
+      width: 16px;
+      height: 16px;
+      margin-right: 5px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    & {
+      width: 13px;
+      height: 13px;
+      margin-right: 4px;
+    }
+  }
+}
+///////////////////////////
+////////CTA CArd
+.cta {
+  width: 100%;
+
+  background-size: cover;
+  padding: 80px 20px 50px 20px;
+  transition: all 0.2s;
+  &:hover {
+    transform: translateY(-5px);
+  }
+  @media only screen and (max-width: 576px) {
+    & {
+      padding: 40px 20px 50px 20px;
+    }
+  }
+
+  &-1 {
+    background-image: linear-gradient(
+      to right bottom,
+      ($bg-color4),
+      ($bg-color5)
+    );
+    &:hover {
+      box-shadow: 0 60px 50px $bg-color5-1;
+    }
+  }
+
+  &-2 {
+    background-image: linear-gradient(
+      to right bottom,
+      ($bg-color6),
+      ($bg-color7)
+    );
+    &:hover {
+      box-shadow: 0 60px 50px $bg-color7-1;
+    }
+  }
+  &-3 {
+    background-image: linear-gradient(
+      to right bottom,
+      ($bg-color8),
+      ($bg-color9)
+    );
+    &:hover {
+      box-shadow: 0 60px 50px $bg-color9-1;
+    }
+  }
+  &-4 {
+    background-image: linear-gradient(
+      to right bottom,
+      ($bg-color10),
+      ($bg-color11)
+    );
+    &:hover {
+      box-shadow: 0 60px 50px $bg-color11-1;
+    }
+  }
+  &-5 {
+    background-image: linear-gradient(
+      to right bottom,
+      ($bg-color12),
+      ($bg-color13)
+    );
+    &:hover {
+      box-shadow: 0 60px 50px $bg-color13-1;
+    }
+  }
+  &-6 {
+    background-image: linear-gradient(
+      to right bottom,
+      ($bg-color14),
+      ($bg-color15)
+    );
+    &:hover {
+      box-shadow: 0 60px 50px $bg-color15-1;
+    }
+  }
+
+  &__hedpera {
+    margin: 30px 0 10px 0;
+  }
+  &__text {
+    margin-bottom: 40px;
+  }
+  &__icon {
+    width: 100%;
+  }
+}
+/////////////////////////
+/////card2
+.card2 {
+  background-color: $bg-color18;
+  padding: 80px 0;
+
+  &__card {
+    box-shadow: 0 5px 10px $box-shadow;
+    width: 100%;
+    background-size: cover;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    padding: 65px;
+    &-icon {
+      @media only screen and (max-width: 576px) {
+        & {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+    &--1 {
+      background-color: $bg-color2;
+      background-image: url(../img/card2-1.png);
+    }
+    &--2 {
+      background-color: $bg-color28;
+      background-image: url(../img/card2-2.png);
+    }
+    &--3 {
+      background-color: $bg-color12;
+      background-image: url(../img/card2-3.png);
+    }
+    @media only screen and (max-width: 992px) {
+      & {
+        padding: 65px 50px;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      & {
+        margin-top: 0;
+      }
+    }
+    @media only screen and (max-width: 576px) {
+      & {
+        padding: 33px 30px;
+        text-align: center;
+      }
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    & {
+      padding: 35px 30px;
+    }
+  }
+}
+.card3 {
+  overflow: hidden;
+  background-color: $bg-color17;
+  box-shadow: 0 2px 50px $box-shadow;
+
+  text-align: left;
+  &__img {
+    position: relative;
+
+    &-1 {
+      width: 100%;
+    }
+    &-overlay {
+      width: 101.5%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      backface-visibility: hidden;
+    }
+  }
+
+  &__body {
+    padding: 20px 40px;
+    &-pera {
+      font-size: 20px;
+      color: $text-color5;
+      margin-bottom: 12px;
+      line-height: 26px;
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 13px;
+        }
+      }
+    }
+    &-text {
+      font-size: 14px;
+      color: $text-color6;
+      line-height: 28px;
+      margin-bottom: 11px;
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 11px;
+        }
+      }
+    }
+    @media only screen and (max-width: 992px) {
+      & {
+        padding: 20px 23px;
+      }
+    }
+  }
+}
+///////////////////////
+// video section
+.videosection {
+  &__img {
+    margin-left: 50px;
+    @media only screen and (max-width: 768px) {
+      & {
+        margin-left: 0;
+        margin-bottom: 20px;
+        &-image {
+          width: 90vw;
+        }
+      }
+    }
+  }
+}
+////////////////////////////
+////footer section
+.footer {
+  &__social {
+    display: flex;
+
+    align-items: center;
+    margin-top: 50px;
+    &-icon {
+      background-color: $bg-color37;
+      margin-right: 15px;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      padding: 10px;
+
+      @media only screen and (max-width: 992px) {
+        & {
+          width: 36px;
+          height: 36px;
+          margin-right: 10px;
+        }
+      }
+    }
+    &-link {
+      &:link,
+      &:visited,
+      &:active {
+        text-decoration: none;
+      }
+    }
+    @media only screen and (max-width: 425px) {
+      & {
+        justify-content: center;
+        margin-top: 30px;
+      }
+    }
+  }
+  &__box-phone {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,744 @@
+body {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+///////////////////////////
+////////top hero section
+.herosection {
+  &__baner {
+    color: $text-color4;
+
+    &-heading1 {
+      font-size: 78px;
+      width: 50vw;
+      @media only screen and (max-width: 1400px) {
+        & {
+          font-size: 42px;
+          width: 40vw;
+        }
+      }
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 39px;
+          width: 50vw;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        & {
+          font-size: 25px;
+          width: 40vw;
+        }
+      }
+      @media only screen and (max-width: 576px) {
+        & {
+          font-size: 21px;
+        }
+      }
+      @media only screen and (max-width: 425px) {
+        & {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+.pera {
+  font-size: 22px;
+  margin-bottom: 16px;
+  @media only screen and (max-width: 1400px) {
+    & {
+      font-size: 17px;
+      margin-top: 13px;
+      margin-bottom: 22px;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    & {
+      font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    & {
+      font-size: 13px;
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    & {
+      font-size: 11px;
+      width: 50%;
+      margin-top: 5px;
+      margin-bottom: 8px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    & {
+      font-size: 8px;
+    }
+  }
+  &--1 {
+    color: $text-color6;
+
+    @media only screen and (max-width: 576px) {
+      & {
+        width: 100%;
+        font-size: 12px;
+      }
+    }
+    @media only screen and (max-width: 425px) {
+      & {
+        font-size: 11px;
+      }
+    }
+  }
+  &--2 {
+    width: 50%;
+    padding: 10px 0;
+    display: block;
+    color: $text-color;
+    font-weight: 600;
+    border-bottom: 2px solid;
+    @media only screen and (max-width: 576px) {
+      & {
+        width: 80%;
+      }
+    }
+    @media only screen and (max-width: 425px) {
+      & {
+        width: 100%;
+        font-size: 11px;
+      }
+    }
+  }
+  &--3 {
+    @media only screen and (max-width: 768px) {
+      & {
+        width: 80%;
+      }
+    }
+    @media only screen and (max-width: 425px) {
+      & {
+        width: 100%;
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+///////////////////////////
+////////navigation
+
+.navigation {
+  &__logo {
+    color: $text-color2;
+    font-weight: 300;
+    font-size: 32px;
+    span {
+      color: $text-color;
+      font-weight: 500;
+    }
+    @media only screen and (max-width: 992px) {
+      & {
+        font-size: 26px;
+        margin-top: -4px;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      & {
+        font-size: 18px;
+      }
+    }
+    @media only screen and (max-width: 576px) {
+      & {
+        font-size: 16px;
+      }
+    }
+    @media only screen and (max-width: 425px) {
+      & {
+        font-size: 13px;
+      }
+    }
+  }
+  &__list {
+    text-transform: uppercase;
+    font-size: 20px;
+    @media only screen and (max-width: 1400px) {
+      & {
+        font-size: 17px;
+      }
+    }
+
+    @media only screen and (max-width: 992px) {
+      & {
+        font-size: 13px;
+      }
+    }
+  }
+
+  &__link {
+    &:link,
+    &:active,
+    &:visited {
+      text-decoration: none;
+      color: $text-color3;
+    }
+  }
+}
+.menu-toggle {
+  display: block;
+}
+///////////////////////////
+////////service section
+.service {
+  &__box {
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+    @media only screen and (max-width: 992px) {
+      & {
+        width: 55vw;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      & {
+        width: 68vw;
+      }
+    }
+    @media only screen and (max-width: 576px) {
+      & {
+        width: 90vw;
+      }
+    }
+  }
+}
+.pera1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: $text-color;
+  font-weight: 600;
+  margin-bottom: 10px;
+  @media only screen and (max-width: 1400px) {
+    & {
+      font-size: 19px;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    & {
+      font-size: 17px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    & {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    & {
+      font-size: 11px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    & {
+      font-size: 10px;
+      margin-bottom: 8px;
+    }
+  }
+}
+.pera2 {
+  font-size: 18px;
+  color: $text-color6;
+  line-height: 28px;
+  @media only screen and (max-width: 1400px) {
+    & {
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    & {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    & {
+      font-size: 12px;
+
+      line-height: 18px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    & {
+      font-size: 10px;
+
+      line-height: 13px;
+    }
+  }
+}
+.heading2 {
+  font-size: 40px;
+  color: $text-color5;
+  margin-bottom: 15px;
+  @media only screen and (max-width: 1400px) {
+    & {
+      font-size: 31px;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    & {
+      font-size: 25px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    & {
+      font-size: 19px;
+      margin-bottom: 12px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    & {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    & {
+      font-size: 17px;
+      margin-bottom: 3px;
+    }
+  }
+}
+.cta {
+  text-align: center;
+  color: $text-color3;
+  &__hedpera {
+    font-size: 22px;
+    margin-top: 10px;
+    @media only screen and (max-width: 576px) {
+      & {
+        font-size: 17px;
+      }
+    }
+  }
+  &__text {
+    line-height: 26px;
+    @media only screen and (max-width: 576px) {
+      & {
+        font-size: 11px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+/////////////////////////////
+/////video section
+.videosection {
+  &__box {
+    margin-left: 50px;
+    &-hedpera {
+      color: $text-color5;
+      font-weight: 600;
+      @media only screen and (max-width: 425px) {
+        & {
+          font-size: 12px;
+        }
+      }
+    }
+    &-text {
+      width: 70%;
+      @media only screen and (max-width: 425px) {
+        & {
+          font-size: 10px;
+
+          width: 85%;
+        }
+      }
+    }
+    &-btnplay {
+      @media only screen and (max-width: 768px) {
+        & {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+    &-play {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      margin-top: 20px;
+    }
+    &-vrline {
+      @media only screen and (max-width: 425px) {
+        & {
+          height: 10px;
+          width: 30px;
+          margin-top: 2px;
+        }
+      }
+    }
+    &-line {
+      margin: 0 10px 0 20px;
+      margin-top: -8px;
+      @media only screen and (max-width: 768px) {
+        & {
+          margin: 0 6px 0 10px;
+
+          margin-top: -14px;
+        }
+      }
+      @media only screen and (max-width: 425px) {
+        & {
+          margin: 0 6px 0 10px;
+
+          margin-top: -5px;
+        }
+      }
+    }
+    &-bridpera {
+      margin: 0 10px;
+      margin-top: -5px;
+      @media only screen and (max-width: 768px) {
+        & {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+/////////////////////////////
+/////our success
+.success {
+  &__peragraph {
+    width: auto;
+  }
+  &__heading {
+  }
+  &__peragraph {
+    color: $text-color6;
+    @media only screen and (max-width: 425px) {
+      & {
+        font-size: 11px;
+      }
+    }
+  }
+  &__box {
+    &-number {
+      font-size: 38px;
+      color: $text-color3;
+      font-weight: 600;
+      width: 140px;
+      padding: 50px 0;
+      display: inline-block;
+      border-radius: 30px;
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 30px;
+        }
+      }
+      @media only screen and (max-width: 576px) {
+        & {
+          width: 120px;
+          padding: 45px 0;
+          font-size: 30px;
+        }
+      }
+      @media only screen and (max-width: 425px) {
+        & {
+          padding: 35px 0;
+        }
+      }
+      &--1 {
+        background-image: linear-gradient(
+          to right bottom,
+          ($bg-color19),
+          ($bg-color20)
+        );
+      }
+      &--2 {
+        background-image: linear-gradient(
+          to right bottom,
+          ($bg-color21),
+          ($bg-color22)
+        );
+      }
+      &--3 {
+        background-image: linear-gradient(
+          to right bottom,
+          ($bg-color23),
+          ($bg-color24)
+        );
+      }
+    }
+    &-detail {
+      font-size: 18px;
+      color: $text-color2;
+      text-transform: uppercase;
+      margin-top: 20px;
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 16px;
+        }
+      }
+      @media only screen and (max-width: 576px) {
+        & {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+//////////////////////////
+/////////about section
+.about {
+  text-align: center;
+  &__heading {
+    color: $text-color3;
+  }
+  &__text {
+    color: $text-color8;
+  }
+  &__box {
+    &-cotation {
+      font-size: 100%;
+      color: $text-color3;
+      @media only screen and (max-width: 425px) {
+        & {
+          font-size: 76%;
+        }
+      }
+    }
+  }
+  &__reviewbox {
+    &-review {
+      color: $text-color3;
+      margin-top: 15px;
+      @media only screen and (max-width: 576px) {
+        & {
+          font-size: 10px;
+          margin-top: 5px;
+        }
+      }
+    }
+    &-cris {
+      font-size: 28px;
+      color: $text-color10;
+      margin-top: 15px;
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 24px;
+        }
+      }
+      @media only screen and (max-width: 576px) {
+        & {
+          font-size: 15px;
+          margin-top: 13px;
+        }
+      }
+    }
+  }
+  &__hire {
+    text-align: left;
+    &-im {
+      font-size: 38px;
+      width: 80%;
+      color: $text-color3;
+      margin-top: 10px;
+      @media only screen and (max-width: 1200px) {
+        & {
+          font-size: 33px;
+        }
+      }
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 24px;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        & {
+          font-size: 16px;
+        }
+      }
+      @media only screen and (max-width: 576px) {
+        & {
+          font-size: 14px;
+        }
+      }
+      @media only screen and (max-width: 425px) {
+        & {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
+/////////////////////////
+////card2
+.card2 {
+  &__heading {
+    color: $text-color3;
+    margin-top: 10px;
+  }
+  &__pera {
+    font-size: 26px;
+    line-height: 36px;
+    color: $text-color3;
+    font-weight: 300;
+    @media only screen and (max-width: 1400px) {
+      & {
+        font-size: 22px;
+      }
+    }
+    @media only screen and (max-width: 992px) {
+      & {
+        font-size: 14px;
+      }
+    }
+  }
+}
+/////////////////////////////
+////workflow section
+.workflow {
+  &__pera {
+    color: $text-color5;
+    font-weight: 700;
+    @media only screen and (max-width: 576px) {
+      & {
+        font-size: 14px;
+      }
+    }
+  }
+  &__box {
+    color: $text-color6;
+    &-numer {
+      font-size: 20px;
+      color: $text-color3;
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 14px;
+        }
+      }
+    }
+    &-heading {
+      font-size: 20px;
+      margin-bottom: 10px;
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 14px;
+        }
+      }
+      @media only screen and (max-width: 576px) {
+        & {
+          margin-bottom: 3px;
+        }
+      }
+    }
+    &-text {
+      font-size: 14px;
+      line-height: 24px;
+      @media only screen and (max-width: 1200px) {
+        & {
+          font-size: 13px;
+        }
+      }
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 10px;
+          line-height: 15px;
+        }
+      }
+    }
+  }
+}
+.footer {
+  &__box {
+    &-logo {
+      @media only screen and (max-width: 425px) {
+        & {
+          font-size: 22px;
+        }
+      }
+    }
+    &-pera {
+      font-size: 24px;
+      color: $text-color6;
+      margin-bottom: 25px;
+      @media only screen and (max-width: 1400px) {
+        & {
+          font-size: 23px;
+        }
+      }
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 20px;
+        }
+      }
+      @media only screen and (max-width: 425px) {
+        & {
+          font-size: 17px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+    &-list {
+      list-style: none;
+    }
+    &-item {
+      font-size: 20px;
+      margin-bottom: 20px;
+      @media only screen and (max-width: 1400px) {
+        & {
+          font-size: 19px;
+        }
+      }
+      @media only screen and (max-width: 992px) {
+        & {
+          font-size: 15px;
+        }
+      }
+      @media only screen and (max-width: 425px) {
+        & {
+          font-size: 14px;
+        }
+      }
+    }
+    &-link {
+      &:link,
+      &:visited,
+      &:active {
+        text-decoration: none;
+        color: $text-color2;
+
+        @media only screen and (max-width: 425px) {
+          & {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+  &__text {
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 28px;
+    color: $text-color6;
+    font-weight: 500;
+    @media only screen and (max-width: 425px) {
+      & {
+        margin-top: 14px;
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    & {
+      text-align: center;
+    }
+  }
+}
